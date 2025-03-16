@@ -1,0 +1,83 @@
+.intro {
+  background-image: url(../assets/images/Background_Intro.png);
+  height: 750px;
+  background-size: cover;
+  text-align: center;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;    
+}
+
+.profile {
+  position: relative;
+  width: 160px;
+  height: 160px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 56px;
+  margin-top: 128px;
+}
+
+.avatar-code {
+  position: absolute;
+  right: 30px;
+  bottom: 5px;
+  width: 32px;
+  height: 32px;
+}
+
+.circle-container {
+  width: 96px; 
+  height: 96px;
+  border: 2px solid var(--red); 
+  border-radius: 50%; 
+  padding: 5px;
+}
+
+.avatar {
+  height: 100%; 
+}
+
+.tech-icons {
+  display: flex;
+  gap: 15px;
+  margin-top: 80px;
+    
+}
+
+.tech-icons .icon {
+  background-color: var(--gray-300);
+  padding: 14px;
+  border-radius: 20px;
+  font-size: 14px;
+  font-family: 'Maven Pro';
+  display: flex;
+  width: auto;
+  height: 40px;
+  align-items: center;
+  justify-content: center;
+  color: var(--gray-600);
+    
+}
+
+/* .github { color: var(--red) }
+.html { color: var(--red); } 
+.css { color: #264de4; } 
+.js { color: #f7df1e; } 
+.react { color: #61dafb; } 
+.node { color: #68a063; }  */
+
+.icon img {
+  width: 24px;
+  height: 24px;
+}
+
+.doubledown {
+  height: 32px;
+  width: 32px;
+  margin-top: 94px;
+}
