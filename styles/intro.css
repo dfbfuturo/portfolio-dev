@@ -12,10 +12,6 @@
   padding: 20px;    
 }
 
-.intro .text-sm {
-  color: var(--gray-400);
-}
-
 .profile {
   position: relative;
   width: 160px;
@@ -69,16 +65,11 @@
   color: var(--gray-600);
 }
 
-.github { color: var(--red); }
-.html { color: var(--red); } 
-.css { color: #264de4; } 
-.js { color: #f7df1e; } 
-.react { color: #61dafb; } 
-.node { color: #68a063; } 
-
 .icon img {
   width: 24px;
   height: 24px;
+  margin-right: 12px;
+  
 }
 
 .doubledown {
@@ -90,6 +81,10 @@
 .intro .text-sm {
   width: 680px;
   height: 40px;
-  margin: 20px auto;
+  margin: 20px;
   color: var(--gray-400);
+}
+
+.text {
+  
 }
