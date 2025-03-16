@@ -1,6 +1,7 @@
 .intro {
   background-image: url(../assets/images/Background_Intro.png);
-  height: 750px;
+  min-height: 750px;
+  height: 100vh;
   background-size: cover;
   text-align: center;
   position: relative;
@@ -11,6 +12,10 @@
   padding: 20px;    
 }
 
+.intro .text-sm {
+  color: var(--gray-400);
+}
+
 .profile {
   position: relative;
   width: 160px;
@@ -19,13 +24,13 @@
   align-items: center;
   justify-content: center;
   margin-bottom: 56px;
-  margin-top: 128px;
+  margin-top: clamp(80px, 10vh, 128px);
 }
 
 .avatar-code {
   position: absolute;
   right: 30px;
-  bottom: 5px;
+  bottom: 30px;
   width: 32px;
   height: 32px;
 }
@@ -46,7 +51,8 @@
   display: flex;
   gap: 15px;
   margin-top: 80px;
-    
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .tech-icons .icon {
@@ -61,15 +67,14 @@
   align-items: center;
   justify-content: center;
   color: var(--gray-600);
-    
 }
 
-/* .github { color: var(--red) }
+.github { color: var(--red); }
 .html { color: var(--red); } 
 .css { color: #264de4; } 
 .js { color: #f7df1e; } 
 .react { color: #61dafb; } 
-.node { color: #68a063; }  */
+.node { color: #68a063; } 
 
 .icon img {
   width: 24px;
@@ -80,4 +85,11 @@
   height: 32px;
   width: 32px;
   margin-top: 94px;
+}
+
+.intro .text-sm {
+  width: 680px;
+  height: 40px;
+  margin: 20px auto;
+  color: var(--gray-400);
 }
