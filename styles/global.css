@@ -73,7 +73,7 @@ body {
 
 .text-md {
   font-family: 'Maven Pro';
-  color: var(--gray-400);
+  color: var(--gray-500);
   font-weight: 400; 
   font-size: 16px;
   line-height: 140%; 
@@ -87,7 +87,7 @@ body {
 }
 
 .highlight {
-  color: #FF3B3B;
+  color: var(--red);
 }
 
 p {
@@ -103,12 +103,7 @@ p {
   background-color: var(--gray-100);
 }
 
-.contact {
-  height: 787px;
-  background-image: url(../assets/images/Background_Contacts.png);
-  background-size: cover;
-  
-}
+
   
 a {
   text-decoration: none;
