@@ -1,11 +1,11 @@
-.contact .highlight {
+/* .contact .highlight {
   color: var(--purple);
 }
 
 .contact {
   height: 787px;
   background-image: url(../assets/images/Background_Contacts.png);
-  background-size: cover;
+  background-size: contain;
   text-align: center;
   position: relative;
   display: flex;
@@ -45,4 +45,4 @@
   text-decoration: none;
   color: var(--gray-400);
   transition: color 0.3s ease-in-out;
-}
+} */

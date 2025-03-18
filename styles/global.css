@@ -1,9 +1,15 @@
-* {
+/* * {
   margin: 0px;
   padding: 0;
   box-sizing: border-box;
   
 }
+
+body {
+  display: grid;
+  
+}
+
 
 
 body {
@@ -116,4 +122,4 @@ a:hover {
 
 
 
-
+ */

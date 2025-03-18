@@ -1,8 +1,8 @@
-.intro {
+/* .intro {
   background-image: url(../assets/images/Background_Intro.png);
   min-height: 750px;
   height: 100vh;
-  background-size: cover;
+  background-size: contain;
   text-align: center;
   position: relative;
   display: flex;
@@ -87,4 +87,4 @@
 
 .text {
   
-}
+} */
