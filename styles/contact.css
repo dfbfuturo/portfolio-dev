@@ -1,9 +1,9 @@
 .contact {
-  height: auto;
+  height: 100vh;
   background-image: url(../assets/images/Background_Contacts.png);
   background-size: contain;
   background-position: center;
- 
+  position: relative;
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -57,9 +57,6 @@
 }
 
 .contact-item img {
-  width: 24px;
-  height: 24px;
-  margin-right: 12px;
 }
 
 .contact-item::after {
@@ -69,4 +66,13 @@
 
 .contact-item:hover {
   border-color: var(--blue);
+}
+
+.contact-item svg {
+  color: var(--gray-400);
+  margin-right: 12px;
+}
+
+.contact-item:hover svg {
+  color: var(--blue);
 }
