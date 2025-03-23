@@ -1,4 +1,4 @@
-/* .intro {
+.intro {
   background-image: url(../assets/images/Background_Intro.png);
   min-height: 750px;
   height: 100vh;
@@ -24,9 +24,9 @@
 }
 
 .avatar-code {
-  position: absolute;
+  position: relative;
   right: 30px;
-  bottom: 30px;
+  margin-top: 60px;
   width: 32px;
   height: 32px;
 }
@@ -76,6 +76,7 @@
   height: 32px;
   width: 32px;
   margin-top: 94px;
+  margin-bottom: 60.5px;
 }
 
 .intro .text-sm {
@@ -87,4 +88,4 @@
 
 .text {
   
-} */
+}

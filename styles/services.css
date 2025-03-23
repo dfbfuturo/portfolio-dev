@@ -1,4 +1,4 @@
-/* .services {
+.services {
   min-height: 480px;
   background-color: var(--gray-100);
   text-align: center;
@@ -11,7 +11,8 @@
 }
 
 .services-header {
-  margin-bottom: 40px;
+  margin-top: 88px;
+  
 }
 
 .services-grid {
@@ -19,6 +20,7 @@
   gap: 20px;
   flex-wrap: wrap;
   justify-content: center;
+  margin-bottom: 120px;
 }
 
 .service-card {
@@ -46,4 +48,4 @@
 
 
 
- */
+

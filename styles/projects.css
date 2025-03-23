@@ -1,4 +1,4 @@
-/* .projects {
+.projects {
   min-height: 917px;
   background-color: var(--gray-200);
   text-align: center;
@@ -16,6 +16,7 @@
   gap: 24px;
   justify-content: center;
   max-width: 800px;
+  margin-bottom: 144px;
  
   
 }
@@ -31,7 +32,13 @@
   width: 330px;
   height: 280px;
   overflow: hidden;
+  border: 2px solid transparent;
+  cursor: pointer;
  
+}
+
+.card:hover {
+  border-color: var(--gray-400);
 }
 
 .card img {
@@ -50,7 +57,7 @@
 
 .projects .title-sm {
   color: var(--gray-600); 
-  margin-top: 20px;
+  /* margin-top: 72px; */
   margin-bottom: 8px;
   
 }
@@ -61,4 +68,8 @@
   height: 40px;
   margin-bottom: 17px;
 }
- */
+
+.trabalho {
+  margin-top: 72px;
+}
+

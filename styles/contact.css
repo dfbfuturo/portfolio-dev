@@ -1,48 +1,72 @@
-/* .contact .highlight {
-  color: var(--purple);
-}
-
 .contact {
-  height: 787px;
+  height: auto;
   background-image: url(../assets/images/Background_Contacts.png);
   background-size: contain;
+  background-position: center;
+ 
   text-align: center;
-  position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 40 px 20px;
+  padding: 120px 128px 120px 200px;
 }
 
-.contact-item {
-  font-family: "Maven Pro";
-  font-size: 16px;
-  color: var(--gray-500);
-  display: flex;
-  align-items: center;
-  gap: 8px;
-  background-color: var(--gray-300);
-  padding: 20px;
-  border-radius: 8px;
-  width: 400px;
-  height: 68px;
-  margin: 16px;
+
+.contact-header .subtitle {
+  color: var(--purple);
   
+}
+
+.contact-header {
+   margin-bottom: 48px;
+}
+
+.contact-header .title-md {
+  margin: 0;
+}
+
+.contact-header .text-md {
+  color: var(--gray-500);
+  margin: 0;
 }
 
 .contact-links {
-  margin-top: 48px;
-  justify-content: center;
-  gap: 20px;
-  flex-wrap: wrap;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  max-width: 400px;
+  align-items: center;
+  width: 100%;
   
 }
-.contact-item a :hover {
-  color: var(--blue);
+
+.contact-item {
+  background-color: var(--gray-300);
+  padding: 20px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+  color: var(--gray-500);
+  border: 2px solid transparent;
+  width: 400px;
+  
+  
 }
-.contact-item a {
-  text-decoration: none;
-  color: var(--gray-400);
-  transition: color 0.3s ease-in-out;
-} */
+
+.contact-item img {
+  width: 24px;
+  height: 24px;
+  margin-right: 12px;
+}
+
+.contact-item::after {
+  content: url('../assets/icons/arrow-up-right.svg'); 
+  margin-left: auto;
+}
+
+.contact-item:hover {
+  border-color: var(--blue);
+}
